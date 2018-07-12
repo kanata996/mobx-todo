@@ -12,7 +12,6 @@ const TodoItem=({todo})=>(
   </li>
 )
 
-
 @inject('store')
 @observer
 class TodoList extends React.Component{
